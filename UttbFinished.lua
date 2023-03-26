@@ -64,10 +64,10 @@ MainSection:NewButton("Inf Damage(true hell ability)", "kills the closest enemy 
     [2] = workspace.Game.Mobs.Dummy,
     [3] = math.huge,
     [4] = "Skill2",
-    [5] = 30,
+    [5] = 0,
     [6] = "Area",
     [7] = true,
-    [8] = 1.5
+    [8] = 10
 }
 
 game:GetService("ReplicatedStorage").Skill:FireServer(unpack(args))
