@@ -62,7 +62,7 @@ MainSection:NewButton("Inf Damage(true hell ability)", "kills the closest enemy 
     local args = {
     [1] = "RealKnife",
     [2] = workspace.Game.Mobs.Dummy,
-    [3] = 15042143215325100,
+    [3] = math.huge,
     [4] = "Skill2",
     [5] = 30,
     [6] = "Area",
